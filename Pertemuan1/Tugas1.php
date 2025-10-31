@@ -1,10 +1,10 @@
 <?php
-$data = array("nama"=>"Azka","umur"=>24);
+$data = array("nama"=>"Azka","umur"=>25);
 echo "JSON Encode:<br>";
 echo json_encode($data);
 echo "<hr>";
 
-$json = '{"nama":"Azka","umur":24}';
+$json = '{"nama":"Azka","umur":25}';
 
 $obj = json_decode($json);
 echo "Object: " . $obj->nama . " - " . $obj->umur . "<br>";
